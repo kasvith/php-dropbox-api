@@ -1,0 +1,24 @@
+{
+    "name": "kasvith/php-dropbox-api",
+    "description": "Complete Dropbox API for PHP",
+    "keywords": ["dropbox", "php", "http", "kasvith", "v2", "dropbox-api", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kasun Vithanage",
+            "email": "alankasun@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Buonzz\\Template\\": "src/"
+        }
+    }
+}
